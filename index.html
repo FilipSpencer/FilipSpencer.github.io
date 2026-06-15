@@ -21,7 +21,7 @@ a:hover, a:active {
     <img src="python-logo-master-v3-TM.png">
     <title>My Website</title>
     <h2>Link Button</h2>
-    <p>A link styled as a button:</p>
+    <p id="demo">A link styled as a button:</p>
 <a href="Page2.html" target="_blank">This is a link</a>
     <iframe width="420" height="315"
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
@@ -29,6 +29,9 @@ a:hover, a:active {
 
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <p id="demo">JavaScript can hide HTML elements.</p>
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+
   </head>
   <body>
     <main>
